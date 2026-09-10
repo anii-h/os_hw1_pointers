@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-int main ()
+int main (void)
 {
 	printf("***Assignment 1: Basics of pointers\n\n\n");
 
@@ -16,7 +16,7 @@ int main ()
 	printf("The number: %d,\n", n);
 	printf("The pointer: %p.\n", p);
 
-	printf("\n***Step 3 - The address of the number using the bith variables\n");
+	printf("\n***Step 3 - The address of the number using the both variables\n");
 	printf("The address of the number (using the variable itself): %p,\n", &n);
 	printf("The address of the number (using the pointer): %p.\n", p);
 
@@ -26,4 +26,6 @@ int main ()
 	printf("/using <*p = 13 * 45> to update the value/\n");
 	*p = 13 * 45;
 	printf("The number after: %d.\n", n);
+
+	return 0;
 }
